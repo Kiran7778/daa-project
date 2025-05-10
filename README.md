@@ -21,7 +21,7 @@ d. plot_pie_chart.py:
 Reads the time data from sorting_times.txt.
 Creates a pie chart to compare the times for both sorting algorithms.
 Saves the chart as an image file (sorting_times_pie_chart.png).
-![image](https://github.com/user-attachments/assets/a32e0258-9f74-46bb-9f3a-56c2a16d3add)
+![image](https://github.com/user-attachments/assets/c500325b-61ff-47c1-80bf-ce2ae71157da)
 
 
 3. Uploading to GitHub
