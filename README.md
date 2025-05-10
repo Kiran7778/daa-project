@@ -2,6 +2,12 @@ Interactive Comparison of QuickSort vs Randomized QuickSort
 
  I have comparing two sorting algorithms (QuickSort and RandomizedQuickSort) by measuring how long they take to sort random data. Then, you create a pie chart to show the time comparison between them.
 
+## Tools and Technologies
+
+- Java
+- Python (for visualization)
+- GitHub (for version control)
+
 2. Code Files
 a. CompareSorts.java:
 Generates random data of different sizes.
@@ -30,6 +36,7 @@ git init: Initializes the Git project in your folder.
 git add .: Adds all your files to Git.
 git commit -m "message": Saves the current state of your project.
 git push -u origin master: Uploads your project to GitHub.
+
 
 Steps Summary:
 Generate Data: Create random arrays.
