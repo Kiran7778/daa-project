@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DAA Sorting Algorithms</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      margin: 30px auto;
+      max-width: 800px;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 4px solid #4CAF50;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #45a049;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 10px;
+      background: #222;
+      color: #ccc;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DAA Sorting Algorithms</h1>
+  </header>
+
+  <div class="container">
+    <p>Below is the pie chart comparing sorting algorithms based on execution time:</p>
+    <img src="sorting_times_pie_chart.png" alt="Pie Chart" id="chartImage" />
+
+    <button class="btn" onclick="toggleChart()">Toggle Chart Visibility</button>
+  </div>
+
+  <footer>
+    &copy; 2025 DAA Project | Created by Kiran7778
+  </footer>
+
+  <script>
+    function toggleChart() {
+      const img = document.getElementById("chartImage");
+      if (img.style.display === "none") {
+        img.style.display = "block";
+      } else {
+        img.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
