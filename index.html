@@ -32,7 +32,7 @@
       box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
 
-    img {
+    #chartImage {
       max-width: 100%;
       height: auto;
       border: 4px solid #4CAF50;
@@ -40,7 +40,7 @@
       transition: transform 0.3s ease;
     }
 
-    img:hover {
+    #chartImage:hover {
       transform: scale(1.05);
     }
 
@@ -76,7 +76,7 @@
   <div class="container">
     <p>Below is the pie chart comparing sorting algorithms based on execution time:</p>
     
-      <img src="sorting_times_pie_chart.png" alt="Pie Chart" width="500">
+    <img id="chartImage" src="sorting_times_pie_chart.png" alt="Pie Chart" width="500" />
 
     <button class="btn" onclick="toggleChart()">Toggle Chart Visibility</button>
   </div>
@@ -88,11 +88,7 @@
   <script>
     function toggleChart() {
       const img = document.getElementById("chartImage");
-      if (img.style.display === "none") {
-        img.style.display = "block";
-      } else {
-        img.style.display = "none";
-      }
+      img.style.display = (img.style.display === "none") ? "block" : "none";
     }
   </script>
 </body>
